@@ -1,0 +1,4 @@
+const msg = `New Registration\nJP1234\nName: Rahul`;
+window.open(
+  `https://wa.me/919942823314?text=${encodeURIComponent(msg)}`
+);
